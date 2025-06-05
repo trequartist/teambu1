@@ -1,0 +1,49 @@
+@media (prefers-contrast: high) {
+  :root {
+    --teal-500: #00796b;
+    --indigo-500: #283593;
+    --zinc-800: #1f1f1f;
+    --zinc-900: #121212;
+  }
+
+  .bg-gradient-to-br {
+    background-image: none !important;
+  }
+
+  .border {
+    border-width: 2px !important;
+  }
+
+  .text-zinc-400 {
+    color: #ffffff !important;
+  }
+
+  .bg-zinc-800\/50 {
+    background-color: var(--zinc-800) !important;
+  }
+
+  .bg-teal-500\/20 {
+    background-color: var(--teal-500) !important;
+  }
+
+  .text-teal-400 {
+    color: #ffffff !important;
+  }
+
+  button:focus,
+  [role="button"]:focus {
+    outline: 3px solid #ffffff !important;
+    outline-offset: 2px !important;
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  *,
+  *::before,
+  *::after {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+    scroll-behavior: auto !important;
+  }
+}
